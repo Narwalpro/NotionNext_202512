@@ -4,12 +4,12 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2025-12-07', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '歡迎來到我的博客', url: 'https://blog.cistus.org' },
+    { title: '到外面的世界看看', url: 'https://www.flickr.com/narwal' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -17,15 +17,15 @@ const CONFIG = {
   // 博客主体区左右侧组件颠倒位置
   HEO_HERO_BODY_REVERSE: false,
 
-  // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
-  // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随便逛逛',
+  // 英雄區(首頁頂部大卡)
+  HEO_HERO_TITLE_1: '出去走走',
+  HEO_HERO_TITLE_2: '看看不同的世界',
+  HEO_HERO_TITLE_3: 'https://www.flickr.com/narwal',
+  HEO_HERO_TITLE_4: '回憶 記憶',
+  HEO_HERO_TITLE_5: '追憶 憶昔 憶往',
+  HEO_HERO_TITLE_LINK: 'https://www.flickr.com/narwal',
+  // 英雄區遮罩文字
+  HEO_HERO_COVER_TITLE: '深度思考',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -123,10 +123,10 @@ const CONFIG = {
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
 
   // 底部统计面板文案
-  HEO_POST_COUNT_TITLE: '文章数:',
-  HEO_SITE_TIME_TITLE: '建站天数:',
-  HEO_SITE_VISIT_TITLE: '访问量:',
-  HEO_SITE_VISITOR_TITLE: '访客数:',
+  HEO_POST_COUNT_TITLE: '文章數:',
+  HEO_SITE_TIME_TITLE: '建站天數:',
+  HEO_SITE_VISIT_TITLE: '訪問量:',
+  HEO_SITE_VISITOR_TITLE: '訪客數:',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
